@@ -1,0 +1,49 @@
+main {
+    background-color: rgb(37, 49, 161);
+    /* width: 95%; */
+    height: 400px;
+}
+
+#logo {
+    background-color: rgb(245, 226, 61);
+    /* width: 42px; */
+    float: left;
+    /* height: 100%; */
+}
+
+#menu {
+    width: 400px;
+    /* background-color: rgb(61, 245, 107); */
+    float: right;
+}
+
+header {
+    background-color: rgb(255, 0, 0);
+    overflow: hidden;
+    /* height: 46px; */
+}
+
+#slide {
+    background-color: rgb(208, 169, 245);
+    height: 150px;
+}
+
+#content {
+    background-color: aqua;
+    height: 100px;
+}
+
+.subcontent {
+    background-color: brown;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin: 5px;
+    list-style-type: none;
+}
