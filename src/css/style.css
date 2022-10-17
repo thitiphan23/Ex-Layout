@@ -1,40 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #773efb, #0079ff, #009eff, #00bcff, #06d4ff);
+    color: aliceblue;
+}
+
 main {
-    background-color: rgb(37, 49, 161);
+    
     /* width: 95%; */
-    height: 400px;
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1d1d1d;
+    border-radius: 8px;
 }
 
 #logo {
-    background-color: rgb(245, 226, 61);
-    /* width: 42px; */
     float: left;
-    /* height: 100%; */
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo-image {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 3.5vmin;
+    height: 3.5vmin;
 }
 
 #menu {
     width: 400px;
-    /* background-color: rgb(61, 245, 107); */
     float: right;
 }
 
 header {
-    background-color: rgb(255, 0, 0);
     overflow: hidden;
-    /* height: 46px; */
 }
 
 #slide {
-    background-color: rgb(208, 169, 245);
-    height: 150px;
+    height: 200px;
 }
 
 #content {
-    background-color: aqua;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
 }
 
 .subcontent {
-    background-color: brown;
+    background-color: rgb(88, 88, 88);
+    float: left;
+    margin: 10px;
+    width: 280px;
+    height: 340px;
+    margin-top: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgb(205, 207, 207);
+    padding: 5px;
 }
 
 ul {
@@ -45,5 +75,7 @@ ul {
 li {
     float: left;
     margin: 5px;
+    margin-left: 10px;
     list-style-type: none;
+    text-transform: uppercase;
 }
